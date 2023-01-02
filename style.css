@@ -1,3 +1,17 @@
 a:after {
   content: " (https://appleseeds.org.il/)";
 }
+.parent-box {
+  background-color: red;
+  width: 50vw;
+  height: 50vh;
+}
+
+.parent-box:after {
+  content: "";
+  background-color: purple;
+  width: 25vw;
+  height: 50vh;
+  position: absolute;
+  z-index: 1;
+}
